@@ -1,0 +1,81 @@
+.modalTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeBtn{
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.uploadSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+}
+
+.fileName{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 16px;
+}
+
+.infoText{
+    color: grey;
+    margin-top: 12px;
+    font-size: 10px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.selectImageBtn{
+    padding: 12px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.uploadImageBtn{
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: black;
+    color: white;
+}
+
+.imageList{
+    overflow: scroll;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16%;
+}
+
+.imagePreviewSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.imagePreviewTitle{
+    text-align: center;
+}
+
+.previewImageItem{
+    height: 100px;
+    width: 100px;
+    margin: 0px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
